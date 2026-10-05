@@ -1,0 +1,17 @@
+Bully Co-op Hamdan Launcher v0.17b - ROOT UPLOAD
+
+ارفع هذه الملفات فقط إلى الصفحة الرئيسية للمستودع:
+- BullyCoopLauncher.cs
+- BUILD_LAUNCHER.cmd
+- BullyCoop_HOST.ini
+- BullyCoop_GUEST.ini
+- README_LAUNCHER_AR.txt
+
+لا ترفع Bully.exe ولا dinput8.dll ولا اللوقات.
+
+بعدها أنشئ ملف Workflow من GitHub نفسه بهذا المسار:
+.github/workflows/build-bully-launcher-v017b.yml
+
+واستخدم محتوى الملف build-bully-launcher-v017b.yml الذي أرسله ChatGPT منفصلًا.
+
+هذا الـWorkflow يبني اللانشر فقط. احتفظ بملف dinput8.dll v0.16b المجرب عندك ولا تستبدله.
